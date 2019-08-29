@@ -1,0 +1,414 @@
+
+/*Header*/
+
+* {
+  text-decoration: none;
+}
+
+header {
+
+background-color: #f2f2f2;
+  width: 100%;
+  height: 100px;
+}
+
+header .header-brand {
+  font-family: 'Catamaran', sans-serif;
+  font-size: 24px;
+  font-weight: 900;
+  color: #111;
+  text-transform: uppercase;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px 0;
+
+}
+
+header nav ul {
+  display: block;
+  margin: 0 auto;
+}
+
+header nav ul li {
+display: inline-block;
+float: left;
+list-style: none;
+padding: 0 16px;
+}
+
+header nav ul li a {
+  font-family: 'Catamaran', sans-serif;
+  font-size: 16px;
+  font-weight: 900;
+  color: #111;
+}
+
+header .gincow.html {
+display: none;
+}
+
+@media only screen and (min-width: 1000px) {
+  header .header-brand {
+  margin: 31px 0;
+  text-align: left;
+  padding: 0px 20px 0 40px;
+  border-right: 3px;
+}
+header nav ul {
+  margin: 0px 10px 10px 0px;
+  align-items: center;
+}
+header nav ul li {
+display: inline-block;
+float: left;
+list-style: none;
+padding: 0 16px;
+}
+header nav ul li a {
+  font-family: 'Catamaran', sans-serif;
+  font-size: 16px;
+  color: #111;
+  text-transform: uppercase;
+  float: right;
+  margin-right: 40px;
+  margin-top: 30px;
+  padding: 0 20px;
+}
+/*INDEX*/
+ .index-banner {
+  width: 100%;
+  height: calc(100vh - 100px);
+  background-image: url('img/martinbus.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: table;
+}
+index-banner a {
+  width: 100%;
+  height: calc(100vh - 100px);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: table;
+}
+.vertical-center h1>h2 {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+ul li a:hover{
+  background-color: #111;
+  color: #fff;
+}
+.active{
+  background-color: #111;
+  color: #fff;
+}
+.index-banner h2 {
+font-family: 'Catamaran', sans-serif;
+font-size: 40px;
+font-weight: 900;
+line-height: 70px;
+color: #fff;
+text-align: center;
+text-shadow: 2px 2px 8px #111;
+}
+.index-banner h1 {
+
+font-family: 'Catamaran', sans-serif;
+font-size: 28px;
+font-weight: 100;
+line-height: 40px;
+color: #fff;
+text-align: center;
+text-shadow: 2px 2px 8px #111;
+}
+
+p { color: #111;}
+
+.index-links div h3 {
+font-family: 'Catamaran', sans-serif;
+font-size: 28px;
+font-weight: 600;
+line-height: 40px;
+color: #111;
+text-align: center;
+text-transform: uppercase;
+}
+
+.index-links div {
+  margin: 16px 16px 0;
+  width: calc(100% - 32px);
+  height: 100px;
+  background-color: #f2f2f2;
+}
+
+@media only screen and (min-width: 1000px) {
+  .index-banner {
+   height: 450px;
+}
+.wrapper {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+  .index-banner h1 {
+    display: block;
+    width: 560px;
+    margin: 0 auto;
+  }
+  .index-links {
+overflow: hidden;
+  }
+  .index-links div {
+    margin: 20px 10px 0;
+    height: 230px;
+    background-color: #fff;
+    float: left;
+  }
+
+  .index-boxlink-square {
+    width: calc(25% - 20px) !important;
+  }
+  .index-boxlink-rectangle {
+    width: calc(50% - 20px) !important;
+  }
+  .index-links div h3 {
+  line-height: 230px;
+  }
+/*OM MIG*/
+body{
+    color: #222222;
+    font-size: 1em;
+    font-family: 'Catamaran', sans-serif;
+}
+.masthead {
+  padding: 6em 0;
+  background-image: url('img/cover.jpg');
+  background-size: contain;
+  background-position: top;
+  background-repeat: no-repeat;
+  border-top: solid 1em #e3e3e3;
+}
+.masthead-intro {
+    margin-bottom: 0.1em;
+    font-family: 'Catamaran', sans-serif;
+    font-size: 2em;
+}
+.masthead-heading {
+    color: #111;
+    margin-top: -0.2em;
+    font-family: 'Catamaran', sans-serif;
+    font-weight: bold;
+    font-size: 6em;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+}
+.introduction-section,
+.location-section,
+.questions-section {
+    max-width: 38em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+}
+
+.introduction-section > p,
+.location-section > p,
+.questions-section,
+.content-footer > p {
+    font-weight: 300;
+    letter-spacing: 0.05em;
+}
+.questions-section > h2 {
+    font-family: 'Catamaran', sans-serif;
+    font-size: 1.2em;
+    font-weight: bold;
+    /* Layout */
+    margin: 2em 0 1em 0;
+}
+
+section > h1 {
+    margin-top: 2em;
+}
+
+.content-footer,
+.masthead-heading,
+.masthead-intro {
+  text-align: center;
+}
+
+.masthead {
+  padding: 6em 0;
+  background-image: url('img/cover.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-top: solid 1em #e3e3e3;
+}
+
+.masthead-intro {
+  margin-bottom: 0.1em;
+  font-family: 'Catamaran', sans-serif;
+    font-size: 2em;
+}
+
+.masthead-heading {
+  margin-top: -0.2em;
+  font-family: 'Catamaran', sans-serif;
+  font-weight: bold;
+  font-size: 6em;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+}
+
+a .masthead {
+  margin-top: -0.2em;
+  font-family: 'Catamaran', sans-serif;
+  font-weight: bold;
+  font-size: 6em;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+}
+
+.introduction > p,
+.location > p,
+.content-footer > p {
+    font-weight: 300;
+    letter-spacing: 0.05em;
+}
+h2 {
+    font-family: 'Catamaran', sans-serif;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.introduction-section,
+.location-section,
+.questions-section {
+    max-width: 38em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+}
+
+/*SoME*/
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.middle{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  text-align: center;
+
+}
+.btn{
+  display: inline-block;
+  width: 90px;
+  height: 90px;
+  background: #f1f1f1;
+}
+
+}
+
+/*portfolio*/
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f1f1f1;
+  padding: 20px;
+  font-family: 'Catamaran', sans-serif;
+}
+
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+.row > .column {
+  padding: 8px;
+}
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+}
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+/*FOOTER*/
+
+footer {
+  padding: 40px 40px;
+  margin-top: 20px;
+  background-color: #111;
+  overflow: hidden;
+}
+
+footer ul {
+  width: fit-content;
+  float: left;
+  padding-left: 20px;
+}
+
+  footer ul li {
+    display: block;
+    list-style: none;
+  }
+
+    footer ul li a {
+      font-family: 'Catamaran', sans-serif;
+      font-size: 14px;
+    color: #fff;
+    line-height: 40px;
+}
+
+.footer-links-Test1 {
+  width:  50px;
+  float: right;
+}
+
+.footer-links-Test1{
+  width: 100%;
+  padding-bottom: 10px;
+}
+
+.links1 {
+  display:block;
+  font-size: 20px;
+}
+.links2{
+  display: block;
+  font-size: 20px;
+}
